@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap");
+
+.primary-color-1 {
+  color: #6c9c30;
+}
+.primary-color-2 {
+  color: #008541;
+}
+
+.botaris-dark-green {
+  color: #008541;
+}
+
+.botaris-light-green {
+  color: #6c9b30;
+}
+
+h1 {
+  font-family: "Catamaran", sans-serif;
+}
