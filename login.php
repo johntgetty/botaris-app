@@ -20,36 +20,25 @@
 
 <body class="text-center">
     <main class="form-signin">
-        <form class="form-signup" action="includes/signup.inc.php" method="POST">
+        <form action="includes/login.inc.php" method="POST">
             <img class="mb-4" src="img/LogoBotarisLarge.png" alt="" />
-            <p class="text-danger">***Need to add notification to admin to assign user level***</p>
-            <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
+            <h1 class="h3 mb-3 fw-normal">Please log in</h1>
             <section class="signup-form">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="nameFirst" name="nameFirst" placeholder="First Name" />
-                    <label for="nameFirst">First Name</label>
-                </div>
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="nameLast" name="nameLast" placeholder="Last name" />
-                    <label for="nameLast">Last Name</label>
-                </div>
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="nameUser" name="nameUser" placeholder="User name" />
+                    <input type="text" class="form-control" id="nameUser" name="nameUser" placeholder="nameUser" />
                     <label for="nameUser">User Name</label>
                 </div>
                 <div class="form-floating">
                     <input type="password" class="form-control" id="password" name="password" placeholder="Password" />
-                    <label for="password">Password</label>
+                    <label for="floatingPassword">Password</label>
                 </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="passwordRepeat" name="passwordRepeat"
-                        placeholder="Repeat password" />
-                    <label for="floatingPassword">Repeat Password</label>
-                </div>
-                <button type="submit" class="w-100 btn btn-lg btn-success" name="submit">
-                    Sign up
+
+                <p>Don't have an account? <a href="signup.php"> Signup</a></p>
+                <button class="w-100 btn btn-lg btn-success" type="submit">
+                    Log in
                 </button>
         </form>
+        </section>
     </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

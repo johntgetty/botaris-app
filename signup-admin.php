@@ -22,7 +22,6 @@
     <main class="form-signin">
         <form class="form-signup" action="includes/signup.inc.php" method="POST">
             <img class="mb-4" src="img/LogoBotarisLarge.png" alt="" />
-            <p class="text-danger">***Need to add notification to admin to assign user level***</p>
             <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
             <section class="signup-form">
                 <div class="form-floating">
@@ -32,6 +31,15 @@
                 <div class="form-floating">
                     <input type="text" class="form-control" id="nameLast" name="nameLast" placeholder="Last name" />
                     <label for="nameLast">Last Name</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="nameNick" name="nameNick"
+                        placeholder="Nick name (optional)" />
+                    <label for="nameNick">Nick Name (optional)</label>
+                </div>
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                    <label for="email">Email</label>
                 </div>
                 <div class="form-floating">
                     <input type="text" class="form-control" id="nameUser" name="nameUser" placeholder="User name" />
@@ -45,6 +53,10 @@
                     <input type="password" class="form-control" id="passwordRepeat" name="passwordRepeat"
                         placeholder="Repeat password" />
                     <label for="floatingPassword">Repeat Password</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="userLevel" name="userLevel" placeholder="User level" />
+                    <label for="userLevel">User Level</label>
                 </div>
                 <button type="submit" class="w-100 btn btn-lg btn-success" name="submit">
                     Sign up
