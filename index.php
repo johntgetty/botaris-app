@@ -1,6 +1,6 @@
 <<?php
 include_once 'header.php'
-?> <!-- CONTENT (directly below Botaris logo) -->
+?> <!-- CONTENT ( goesdirectly below Botaris logo) -->
     <p class="text-danger">***To do list at below***</p>
     <h2 class="pb-3">Maintenance Team Portal</h2>
     <button class="btn btn-success btn-lg mb-4 w-100" onclick="window.location.href='checklist.php';">
